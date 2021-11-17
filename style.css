@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+body{
+    background: url(img/background.png) no-repeat;
+    background-size: cover;
+    font-family: 'myfont';
+}
+
+@font-face {
+    font-family: 'myfont' ;
+    src: url(Roboto-Black.ttf);
+}
+
+
+.gvx_logo p{
+    font-size: 50px;
+}
+
+.gvx_logo_position{
+    top: 18%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.gvx_logo_position .line{
+    height: 5%;
+    border: 1px solid black;
+}
+
+.download_position .line1 button{
+    padding: 8px;
+    font-family: 'myfont';
+    background: none;
+    color: #0081d5;
+    border-radius: 100px;
+    border: 2px solid #0081d5;
+    width: 280px;
+}
+
+.download_position{
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.p2 p{
+    font-size: 30px;
+}
+
+.p2 {
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
